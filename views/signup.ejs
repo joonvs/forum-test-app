@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="login.css">
+        <title>Rekisteröidy</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Forum-palvelu</h1>
+        </div>
+        <div class="form-container">
+            <h2>Rekisteröidy</h2>
+            <form action="signup" method="post">
+                <div class="form-group">
+                    <label for="name">Käyttäjänimi</label>
+                    <input type="text" id="name" name="username" placeholder="Syötä käyttäjänimi" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Salasana</label>
+                    <input type="password" name="password" id="password" placeholder="Salasana" required>
+                </div>
+                <% if (query && query.error) { %>
+                    <p class="error-message"><%= query.error %></p>
+                    <% } %>
+                <button type="submit" class="submit-btn">Luo käyttäjä</button>
+            </form>
+            <p>Oletko jo rekisteröitynyt? <a href="/">Kirjaudu sisään</a></p>
+        </div>
+
+    </body>
+</html>
