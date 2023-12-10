@@ -1,6 +1,6 @@
 # Fullstack harjoitustyö kurssille Full Stack -ohjelmointi TTC2080-3025
 
-Harjoitustyön aiheena oli fullstack forum-palvelu, jossa on suojattu kirjautuminen. Salasanojen suojaamiseen on käytetty bcrypt-kirjastoa, jolla hashataan salasanat turvalliseen muotoon tietokantaan. Express-session mahdollistaa istuntojen hallinnan ja tällä pystytään seuraamaan käyttäjän tilaa. Virheenkäsittely mahdollistaa helppokäyttöisen kokemuksen käyttäjälle tunnusta luodessa ja kirjautuessa.
+Harjoitustyön aiheena oli fullstack forum-palvelu, jossa on suojattu kirjautuminen. Salasanojen suojaamiseen on käytetty bcrypt-kirjastoa, jolla hashataan salasanat turvalliseen muotoon tietokantaan. Express-session mahdollistaa istuntojen hallinnan ja tällä pystytään seuraamaan käyttäjän tilaa. Virheenkäsittely mahdollistaa helppokäyttöisen kokemuksen käyttäjälle tunnusta luodessa ja kirjautuessa. Fronttipuolella on käytetty EJS, joka on yksinkertainen mallinnuskieli, joka mahdollistaa HTML-markkupin generoinnin käyttäen suoraa JavaScript-koodia. EJS mahdollistaa upottamisen (embedding) JavaScript-koodia suoraan mallipohjaan.
 
 ## Backendissä käytetyt tekniikat:
 
